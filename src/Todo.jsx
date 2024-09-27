@@ -52,7 +52,7 @@ function Todo() {
       {todo.map((data, i) => {
         return (
           <div className="ml-2 mr-2 border-b-2 border-black " key={i}>
-            {i}. <span className='border border-black bg-white rounded-md p-0.5'>{data}</span>
+            {i}. <span className='border border-black bg-white rounded-md p-0.5 w-96'>{data}</span>
             <button 
               className='border border-black rounded-lg p-0.5 text-white bg-red-400 hover:bg-red-700' 
               onClick={() => Delete(i)}>
